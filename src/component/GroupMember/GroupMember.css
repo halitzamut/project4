@@ -1,0 +1,35 @@
+
+
+
+.numbers .box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.numbers .box .col {
+    position: relative;
+    max-width: 150px;
+    margin: 5px;
+    border: 1px solid var(--main-color);
+    padding: 10px;
+    flex-direction: column;
+}
+.numbers .box .col .num {
+    color: var(--adress-color);
+    padding-bottom: 5px;
+}
+@media (max-width: 767px) {
+    .numbers .box .col div {
+        color: var(--secondary-color);
+    }
+}
+.numbers .box .col p {
+    color: var(--main-color);
+}
+@media (max-width: 767px) {
+    .numbers .box .col {
+        width: 100px;
+        margin: 15px auto;
+    }
+}

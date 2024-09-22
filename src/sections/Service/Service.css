@@ -1,0 +1,41 @@
+
+
+.service {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service .col {
+    display: flex;
+    min-width: 400px;
+    padding: 10px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.service .col:hover {
+    background-color: #eeeeee62;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0,6);
+}
+
+.service .col span {
+    margin-right: 15px;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}
+
+.service .col .text h3 {
+    color: var(--secondary-colo);
+}
+
+
+.service .col .text p {
+    color: var(--secondary-color);
+}

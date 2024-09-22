@@ -1,0 +1,15 @@
+
+
+.team .container .cont img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.team .container .cont h3 {
+    color: var(--main-color);
+}
+.team .container .cont p {
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    margin: 10px;
+}

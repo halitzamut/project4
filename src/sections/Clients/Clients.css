@@ -1,0 +1,26 @@
+
+
+.clients {
+    padding-top: var(--main-padding);
+}
+
+
+.www {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+
+.slider-container {
+    max-width: 75%;
+}
+
+
+.slider-container img {
+    width: 150px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 8px;    
+    max-height: 200px;
+}

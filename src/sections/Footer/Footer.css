@@ -1,0 +1,71 @@
+
+
+.footer .text {
+    color: var(--adress-color);
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid var(--main-color);
+}
+.footer .text span {
+    color: var(--main-color);
+}
+.footer {
+    background-color: rgb(0 0 0 / 90%);
+}
+.footer .icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+.footer .icons .i {
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+.footer .icons .i.fa-phone {
+    color: var(--main-color);
+}
+.footer .icons .i.fa-phone:hover {
+    background-color: var(--main-color);
+    color: #edeeee;
+}
+.footer .icons .i.fa-twitter {
+    color: #1da1f2;
+}
+.footer .icons .i.fa-twitter:hover {
+    background-color: #1da1f2;
+    color: #edeeee;
+}
+.footer .icons .i.fa-square-dribbble {
+    color: #8aba56;
+}
+.footer .icons .i.fa-square-dribbble:hover {
+    background: #8aba56;
+    color: #edeeee;
+}
+.footer .icons .i.fa-youtube {
+    color: #ff0000;
+}
+.footer .icons .i.fa-youtube:hover {
+    background-color: #ff0000;
+    color: #edeeee;
+}
+.footer .arow {
+    text-align: center;
+}
+.footer .arow-icon {
+    background-color: var(--main-color);
+    padding: 5px;
+    color: var(--adress-color);
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    font-size: 50px;
+    transition: 0.5s;
+}
+.footer .arow-icon:hover {
+    background-color: var(--secondary-color);
+}

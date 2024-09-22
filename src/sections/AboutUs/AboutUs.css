@@ -1,0 +1,13 @@
+
+
+
+.about {
+    background-color: white;
+}
+.about .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    column-gap: 15px;
+    row-gap: 15px;
+    margin: 50px auto 0 auto;
+}

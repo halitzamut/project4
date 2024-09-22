@@ -1,0 +1,35 @@
+
+
+.team {
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    background-color: #fbfbfb;
+}
+.team .container .text {
+    text-align: center;
+}
+.team .container .text h3 {
+    font-size: 32px;
+}
+.team .container .text p {
+    color: var(--secondary-color);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.team .container .cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+    .team .container .cont  {
+        flex-direction: column;
+    }
+}
+.team .container .cont .box {
+    background-color: #eee;
+    margin: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Start Variables */
+:root {
+    --main-color: #f9e416;
+    --secondary-color: #777;
+    --adress-color: #edeeee;
+    --main-padding: 100px;
+    --backgroun: #fcfcfc;
+    --paragraph-color: #f9f9f9;
+}
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
